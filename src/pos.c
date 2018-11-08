@@ -1,9 +1,7 @@
+#include "nprcrossover.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include <time.h>
 #include <math.h>
-#include "nprcrossover.h"
 
 void shuffle(int size, int array[size]){
 	int i, j, temp;
